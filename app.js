@@ -2,8 +2,11 @@ const express = require('express');
 const fs = require('fs');
 const app = express();
 
-// ⚠️ Hardcoded secret to trigger secret scanning
+// ⚠️ Hardcoded AWS-style secret to trigger secret scanning
 const API_KEY = 'AKIAEXAMPLESECRETKEY';
+
+// ⚠️ Hardcoded GitHub token to trigger secret scanning
+const token = "ghp_abcd1234efgh5678ijkl9012mnop3456qrst";
 
 // ⚠️ Dynamic eval - detected by ESLint and Code Scanning
 app.get('/eval', (req, res) => {
