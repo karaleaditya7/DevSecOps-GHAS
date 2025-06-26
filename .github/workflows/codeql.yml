@@ -2,9 +2,9 @@ name: "CodeQL"
 
 on:
   push:
-    branches: [main]
+    branches: [ "**" ]  # Match all branches
   pull_request:
-    branches: [main]
+    branches: [ "**" ]
   schedule:
     - cron: '0 0 * * 0'  # Weekly on Sunday
 
