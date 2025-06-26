@@ -4,6 +4,7 @@ const app = express();
 
 // ⚠️ Hardcoded AWS-style secret to trigger secret scanning
 const API_KEY = 'AKIAEXAMPLESECRETKEY';
+AWS_ACCESS_key = 'SDCSDKCGSDKU563E7BCSJHCVS'
 
 // ⚠️ Hardcoded GitHub token to trigger secret scanning
 const token = "ghp_abcd1234efgh5678ijkl9012mnop3456qrst";
