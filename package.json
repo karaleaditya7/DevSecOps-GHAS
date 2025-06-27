@@ -6,9 +6,8 @@
       "start": "node app.js"
     },
     "dependencies": {
-      "express": "4.17.1",         // older version with known issues
-      "lodash": "4.17.15",         // known CVEs to trigger Dependabot
-      "minimist": "0.0.8"          // vulnerable to prototype pollution
-    }
+      "express": "4.17.1",         
+      "lodash": "4.17.15",         
+      "minimist": "0.0.8"          
   }
   
