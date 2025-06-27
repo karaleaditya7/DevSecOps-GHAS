@@ -1,0 +1,14 @@
+{
+    "name": "ghas-demo",
+    "version": "1.0.0",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {
+      "express": "4.17.1",
+      "lodash": "4.17.15",
+      "minimist": "0.0.8"
+    }
+  }
+  
